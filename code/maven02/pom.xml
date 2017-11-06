@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<!--maven的版本，这是固定的-->
+	<modelVersion>4.0.0</modelVersion>
+	<!--groupId就是项目的包名-->
+	<groupId>cn.seu.edu.maven02</groupId>
+	<!--artifactId就是模块名-->
+	<artifactId>maven02-util</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	
+	<!--导入Junit依赖-->
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+		</dependency>
+		
+		<dependency>
+			<!--groupId就是项目的包名-->
+			<groupId>cn.seu.edu.maven01</groupId>
+			<!--artifactId就是模块名-->
+			<artifactId>maven01-model</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
